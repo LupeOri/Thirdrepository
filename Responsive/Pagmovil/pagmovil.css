@@ -1,0 +1,48 @@
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.encabezado {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+.logo,
+.home,
+.concepto,
+.fotos,
+.menu,
+.reservas,
+.blog,
+.contacto,
+.cuerpo {
+  width: 15px;
+  height: 5px;
+  margin: 1px;
+}
+
+.cuerpo {
+  width: 100%;
+  display: flex;
+  background-image: url("https://www.muchomasquedrinks.com/blog/wp-content/uploads/2017/08/interior-2573445_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin: 2px;
+  position: relative;
+  z-index: 1;
+}
