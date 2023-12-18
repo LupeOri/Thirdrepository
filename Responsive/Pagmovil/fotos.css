@@ -1,0 +1,9 @@
+@media screen and (max-width: 576px) {
+    .container {
+      width: 100%;
+      height: auto;
+      background-image: url("https://img.freepik.com/fotos-premium/hay-dibujo-flor-hojas-ai-generativo_955884-69539.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1698451200&semt=ais");
+      display: flex;
+      flex-direction: column;
+      border: 1px solid transparent;
+  }
