@@ -1,0 +1,64 @@
+@media screen and (max-width: 576px) {
+    .container {
+      background-color: white;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-position: center;
+      height: auto;
+      margin: 2px;
+      border: solid 2px black;
+    }
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.containertitulo{
+    width: 100%;
+    height: 4vh;
+    border: solid 2px black;
+    
+}
+
+.containersecciones{
+    width: 100%;
+    height: 4vh;
+    border: solid 2px black;
+}
+
+.containerprecios{
+    width: 100%;
+    height: 86vh;
+    border: solid 2px black;
+}
+
+.containerdesayunos{
+    width: 100%;
+    height: 4vh;
+    border: solid 2px black;
+}
+
+.containertitulo .titulo {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+  .containertitulo .titulo::before,
+.containertitulo .titulo::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 120px; 
+  border-top: 2px solid black;
+}
+
+.containertitulo .titulo::before {
+    left: 0;
+  }
+  
+  .containertitulo .titulo::after {
+    right: 0;
+  }
