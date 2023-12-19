@@ -1,64 +1,107 @@
 @media screen and (max-width: 576px) {
-    .container {
-      background-color: white;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      background-position: center;
-      height: auto;
-      margin: 2px;
-      border: solid 2px black;
-    }
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.containertitulo{
+  .container {
+    background-color: white;
     width: 100%;
-    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    height: auto;
+    margin: 2px;
     border: solid 2px black;
-    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(77, 75, 75);
+  }
 }
 
-.containersecciones{
-    width: 100%;
-    height: 4vh;
-    border: solid 2px black;
+.bold {
+  font-weight: bold;
 }
 
-.containerprecios{
-    width: 100%;
-    height: 86vh;
-    border: solid 2px black;
+.containertitulo {
+  width: 100%;
+  height: 4vh;
+  text-align: center;
 }
 
-.containerdesayunos{
-    width: 100%;
-    height: 4vh;
-    border: solid 2px black;
+.containertitulo h3 {
+    font-weight:bold;
+    font-size:12px;
+    color: rgb(77, 75, 75);
+}
+
+.containersecciones {
+  width: 100%;
+  height: 4vh;
+  border: solid 2px black;
+}
+
+.containerprecios {
+    width: 570px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.containerdesayunos {
+  width: 100%;
+  height: 4vh;
 }
 
 .containertitulo .titulo {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+  width: 100%;
+  height: 4vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-  .containertitulo .titulo::before,
-.containertitulo .titulo::after {
-  content: '';
+.containertitulo .titulo::after,
+.containertitulo .titulo::before {
+  content: "";
   position: absolute;
-  top: 50%;
-  width: 120px; 
-  border-top: 2px solid black;
+  width: 100px;
+  height: 2px;
+  background-color: rgb(77, 75, 75);
+}
+
+.containertitulo .titulo::after {
+    top: 25px;
+    right: 57px;
 }
 
 .containertitulo .titulo::before {
-    left: 0;
-  }
-  
-  .containertitulo .titulo::after {
-    right: 0;
-  }
+  top: 25px;
+  right: 225px;
+}
+
+.palabras {
+  font-size: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+.containercarta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.columnauno, .columnados, .columnatres, .columnacuatro{
+    width: 85px;
+    height: 86vh;
+    font-size: 9px;
+}
+
+
+    
+
+
