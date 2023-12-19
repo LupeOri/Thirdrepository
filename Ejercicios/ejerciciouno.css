@@ -1,0 +1,35 @@
+@media screen and (min-width:577px) {
+        .container{
+            width: 90%;
+            height: auto;
+            border: solid black 1px;
+            display: flex;
+        }
+}
+.columnauno{
+    width: 30%;
+    height: auto;
+}
+
+.columnados{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column
+}
+
+h1{
+    font-size: 52px;
+    font-family: cursive;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.txt{
+    font-size: 18px;
+    font-family: cursive;
+}
+
+p{
+    padding: -2;
+}
