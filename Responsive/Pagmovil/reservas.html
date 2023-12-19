@@ -13,21 +13,62 @@
             <div class="boxform">
                 <form action="">
                     <div class="hrz">
-                    <div class="personas">Personas</div>
-                    <div class="hora">Hora</div>
+                    <div class="personas">
+                        <label for="personas">Personas:</label>
+          <select name="personas" id="personas">
+    <option value="1">1 Persona</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    </select>
+                    </div>
+                    <div class="hora">
+                        <label for="hora">Hora</label>
+          <select name="hora" id="hora">
+            <option value="14:00">14:00 hs</option>
+    <option value="15:00">15:00</option>
+    <option value="19:00">19:00</option>
+    <option value="20:00">20:00</option>
+    <option value="21:00">21:00</option>
+    <option value="22:00">22:00</option>
+    <option value="23:00">23:00</option>
+    </select>
+                    </div>
                 </div>
-                    <div class="mesa">Tipo de mesa</div>
-                    <div class="reservar">Reservar</div>
+                    <div class="mesa">
+                        <label for="mesa">Tipo de mesa</label>
+          <select name="mesa" id="mesa">            
+    <option value="Ventana">Ventana</option>
+    <option value="Fondo">Fondo</option>
+    <option value="Pasillo">Pasillo</option>
+    <option value="Interior">Interior</option>
+    <option value="Terraza">Terraza</option>
+    </select>
+                    </div>
+                    <div class="reservar">
+                        <input onclick="checkform()"type="submit" value="Reservar" style="font-size:12px; border: black solid 1px; background-color: white; width: 200px; height: 18px;"></input>
+                    </div>
                 </form>
                 <p>Si no encuentra disponibilidad, apuntese en la lista de espera.</p>
-                <div class="lista">Lista de espera</div>
-                <div class="grupo">Solicitud de grupo</div>
+                <div class="lista"><input onclick="checkform()" type="submit" value="Lista de espera" style="font-size:12px; border: black solid 1px; background-color: white; width: 200px; height: 18px;"></input></div>
+                <div class="grupo"><input onclick="checkform()"type="submit" value="Solicitud de grupo" style="font-size:12px; border: black solid 1px; background-color: white; width: 200px; height: 18px;"></input></div>
             </div>
             <div class="boxtxt">
-                <P>ESTERILICIA</P>
-                <P>FOOD & DRINKS</P>
+                <P class="logo">ESTERILICIA</P>
+                <P class="logo">FOOD & DRINKS</P>
                 <div class="separator"></div>
-                <p>C. Botello, 2, 38370 La Matanza de Acentejo, Santa Cruz de Tenerife</p>
+                <p class="direc">C. Botello, 2, 38370 La Matanza de Acentejo, Santa Cruz de Tenerife</p>
             </div>
 
         </div>
