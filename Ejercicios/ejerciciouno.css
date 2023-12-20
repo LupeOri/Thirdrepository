@@ -31,5 +31,31 @@ h1{
 }
 
 p{
-    padding: -2;
+   padding-right: 500px;
 }
+
+label{
+    display: block;
+    margin: 10px;
+}
+
+.form input {
+    width: 600px;
+    height: 50px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lista .one{
+    margin-left: -25px;
+    }
+    
+    .lista .two{
+        margin-left: 100px;
+    }
+    
+

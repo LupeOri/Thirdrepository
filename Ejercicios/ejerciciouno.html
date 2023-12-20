@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ejerciciouno.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ejerciciouno.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="columnauno"><img src="mono.png" alt="mono" width="300px" height="300px"></div>
-        <div class="columnados">
+      <div class="columnauno">
+        <img src="mono.png" alt="mono" width="300px" height="300px" />
+      </div>
+      <div class="columnados">
         <div class="titulo"><h1>Welcome to Mailchimp</h1></div>
-        <div class="txt"><p>Find you people. Engage your customers. Bild your brand. Do it all</p>
-        <p>with Mailchimp´s Marketing Platform. Already have an account? Log in</p></div>
+        <div class="txt">
+          <p>
+            Find you people. Engage your customers. Bild your brand. Do it all
+            with Mailchimp's Marketing Platform. Already have an account? Log in
+            <a href="#">Log in</a>
+          </p>
+        </div>
         <div class="form">
+          <form action="">
             <div class="email">
-                <label for="email">Email:</label>
-                <input type="email" id="email" class="input-mail" />
-              </div>
-              <div class="Username">
-                <label for="username">Username:</label>
-                <input type="text" id="username" class="input-username" />
-              </div>
-              <div class="Password">
-                <label for="password">Password</label>
-                <input type="password" id="password" class="input-username" />
-              </div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" class="input-mail" />
+            </div>
+            <div class="Username">
+              <label for="username">Username:</label>
+              <input type="text" id="username" class="input-username" />
+            </div>
+            <div class="password">
+              <label for="password">Password</label>
+              <input type="password" id="password" class="input-username" />
+            </div>
+          </form>
         </div>
         <div class="lista">
-            <ul class="one">
-                <li>One lowercase carachter</li>
-                <li>One uppercase carachter</li>
-                <li>One number</li>
-            </ul>
-        
-            <ul class="two">
-                <li>One special character</li>
-                <li>8 characters minimum</li>
-            </ul>
+          <ul class="one">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+          </ul>
+
+          <ul class="two">
+            <li>One special character</li>
+            <li>8 characters minimum</li>
+          </ul>
         </div>
         <div class="sign">
-            <div class="Signup">
-                <input onclick="checkform()"type="submit" value="Sign Up" style="background-color: white;"></input>
-            </div>
-            <div class="checkbox">
-                    <input type="checkbox" id="receiveemails" name="receiveEmails">
-                    <label for="receiveEmails">I don´t want to receive emails about Mailchimp products, best practices, or special offers.</label>
-            </div>
+          <div class="Signup">
+            <input
+              onclick="checkform()"
+              type="submit"
+              value="Sign Up"
+              style="background-color: white"
+            />
+          </div>
+          <div class="checkbox">
+            <label for="receiveEmails"
+              >I don't want to receive emails about Mailchimp products, best
+              practices, or special offers.
+              <input type="checkbox" id="receiveemails" name="receiveEmails" />
+            </label>
+          </div>
         </div>
         <div class="pie">
-            <p>By clicking the "Sign up button, you are creating a Mailchimp account an you</p>
-        <p>agree to Mailchimp´s Terms of use and Privacy policy.</p>
+          <p>
+            By clicking the "Sign up button, you are creating a Mailchimp
+            account an you agree to Mailchimp's Terms of use and Privacy policy.
+          </p>
         </div>
-</div>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
