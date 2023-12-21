@@ -23,6 +23,11 @@
   flex-direction: column;
 }
 
+.titulo{
+    margin-bottom: -30px;
+    margin-right: -5px;
+}
+
 h1 {
   font-size: 54px;
   font-family: auto;
@@ -95,6 +100,7 @@ ul li::before {
 .sign{
     display: flex;
     flex-direction: row;
+    margin-bottom: 25px;
 }
 .signup input[type="submit"] {
 width: 155px;
@@ -127,7 +133,8 @@ input[type="checkbox"] {
 }
 
 .pie p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: rgb(53, 52, 52);
     font-family: sans-serif;;
+    margin-bottom: 10px;
 }
