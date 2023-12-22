@@ -1,11 +1,20 @@
-@media screen and (min-width: 577px) {
   .container {
     width: 90%;
     height: auto;
     border: solid black 1px;
     display: flex;
   }
-}
+
+@media screen and (max-width: 576px) {
+    .container {
+      width: 90%;
+      height: auto;
+      border: solid black 1px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
 .columnauno {
   width: 30%;
   height: auto;
