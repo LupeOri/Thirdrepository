@@ -1,0 +1,23 @@
+.conteiner{
+display: flex;
+}
+
+.box-dos{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+margin: 10px;
+align-items: center;
+align-content: center;
+}
+
+.box-dos img{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+}
