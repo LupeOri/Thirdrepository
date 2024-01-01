@@ -1,5 +1,19 @@
-.conteiner{
+@media screen and (max-width: 576px) {
+    .container{
 display: flex;
+width: 100%;
+flex-direction: column;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+
+@media screen and (min-width: 576px) {
+    .container{
+        display: flex;
+        max-width: 1280px;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 }
 
 .box-dos{
@@ -16,8 +30,85 @@ align-content: center;
     margin: 10px;
 }
 
+.box-dos p{
+    font-size: 10px;
+    color: rgb(156, 155, 155);
+    font-weight: normal;
+    margin-top: -8px;
+}
+
+
 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 38px;
 }
+
+.box-uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: 460px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-buscar{
+    font-size: 8.5px;
+    font-weight: bold;
+}
+
+.icono-user{
+    margin-left: 70px;
+}
+
+.underline{
+    width: 80px;
+    height: 1px;
+    background-color: rgb(32, 32, 32);
+    margin-right: 80px;
+}
+
+.margen-der{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 200px;
+}
+
+.minibox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.minibox p strong {
+    color: rgb(51, 51, 51);
+  }
+
+  .pie{
+    align-content: center;
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .pie .pdos{
+    font-size: 24px;
+    margin-top: -15px;
+    font-family: sans-serif;
+    color: rgb(34, 34, 34);
+  }
+
+  .pie .puno{
+    margin-top: 100px;
+  }
+
+  .pie .ptres{
+    font-size: 10px;
+    margin-top: 25px;
+    color: rgb(34, 34, 34);
+  }
