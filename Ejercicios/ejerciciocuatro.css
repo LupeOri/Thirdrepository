@@ -3,23 +3,74 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     margin: auto;
+  }
+
+  .box-uno {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .preguntas li {
+    display: flex;
+    margin-right: 5px;
+    font-size: 15px;
+    list-style-type: disc;
+  }
+
+  .preguntas {
+    padding: 0;
+    margin: 0;
+    display: flex;
   }
 }
 
 @media screen and (min-width: 576px) {
-    .container {
-        display: flex;
-        width: 1280px;
-        flex-direction: row;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin: auto;
+  .container {
+    display: flex;
+    width: 1280px;
+    flex-direction: row;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: auto;
+  }
+
+  .box-uno {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .abajo{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
+.separator {
+  width: 100%;
+  background-color: black;
+  height: 1px;
+}
 
-.separator{
-    width: 100%;
-    background-color: black;
-    height: 1px;
+.box-uno {
+  display: flex;
+  flex-direction: column;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+}
+
+.arriba{
+    display: flex;
+    flex-direction: row;
 }
