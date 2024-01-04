@@ -1,92 +1,138 @@
-.container{
+@media screen and (min-width: 576px) {
+  .container {
     width: 1200px;
     height: auto;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     color: #575656;
-}
+    margin: auto;
+  }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:100;
-    color: #575656;
-    font-size: 25px;
-    margin: 35px;
-}
-
-.box-uno{
+  .box-uno {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+  }
 }
 
-.box-uno .subbox a{
-    text-decoration: none;
-    color: #6e6d6d;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.box-dos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center
-}
-
-.separator{
+@media screen and (max-width: 576px) {
+  .container {
     width: 90%;
-    height: 1px;
-    background-color: #b4b4b4;
-}
-
-.coche-BMWi{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center
-}
-
-.coche-X{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.box-dos .titx h2{
-    position: relative;
-    top: 30px;
-    right: 1050px;
-}
-
-h2{
-    color: #313131;
-    font-weight: normal;
-}
-
-h3{
-    font-weight: normal;
-    margin: 0 0 2 0;
-}
-
-p{
-    font-size: 16px;
-    margin: 0;
-}
-
-b{
-    font-size: 14px;
-}
-
-.minibox{
     display: flex;
     flex-direction: column;
-    align-items: left;
-    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #575656;
+    margin: auto;
+  }
+
+  .box-uno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 
-.minibox img{
-    margin: 0 auto;
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #2c2c2c;
+  font-size: 48px;
+  margin: 35px;
 }
 
+.box-uno .subbox a {
+  text-decoration: none;
+  color: #6e6d6d;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.box-dos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #cacaca;
+}
+
+.coche-BMWi,
+.coche-M,
+.coche-8,
+.coche-7,
+.coche-5,
+.coche-4,
+.coche-3,
+.coche-2,
+.coche-1,
+.coche-Z4,
+.coche-HIB,
+.coche-CAR,
+.coche-PRO {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.coche-X {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box-dos .titx h2 {
+  position: relative;
+  top: 30px;
+  right: 1050px;
+}
+
+h2 {
+  color: #313131;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.12em;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+b {
+  font-size: 14px;
+}
+
+.minibox {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 10px;
+}
+
+.minibox img {
+  margin: 0 auto;
+}
+
+h4 {
+  color: #313131;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.minibox:hover img{
+width: 100%;
+height: 100%;
+transition: 5s;
+}
