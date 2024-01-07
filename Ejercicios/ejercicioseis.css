@@ -1,0 +1,177 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 954px;
+  height: 824px;
+  margin: auto;
+  background-color: rgb(245, 242, 242);
+}
+
+.a {
+  display: flex;
+  width: 954px;
+  height: 80px;
+  background-color: rgb(245, 242, 242);
+  align-items: center;
+}
+
+.a .info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  font-family: inherit;
+  margin-left: 250px;
+  color: #929292;
+}
+
+.a .info .tel {
+  color: #6b6b6b;
+  font-size: 20px;
+}
+
+.info .material-symbols-outlined {
+  font-size: 16px;
+}
+
+.info p {
+  margin-right: 6px;
+}
+
+.b {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: inherit;
+  justify-content: space-between;
+  width: 954px;
+  height: 50px;
+  background-color: white;
+}
+
+.b a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: black;
+  color: #3a3f3a;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.c {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 954px;
+  height: 50px;
+  background-color: rgb(245, 242, 242);
+}
+
+.c ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.c li {
+  margin-right: 10px;
+}
+
+.d {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 954px;
+  height: 70px;
+  background-color: rgb(245, 242, 242);
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.d .opcion {
+  width: 123.72px;
+  height: 36.34px;
+  background-color: #67b500;
+  color: white;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.d .opcion:nth-child(3) {
+  width: 168.7px;
+  height: 36.34px;
+}
+
+.d .opcion span:after {
+  content: "▼";
+  font-family: "VECI-1-Web";
+  font-size: 12px;
+  color: #fff;
+  padding: 0 0 0 5px;
+}
+
+.separator {
+  width: 954px;
+  height: 1px;
+  background-color: #e7e5e5;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.squad {
+  width: 459.08px;
+  height: 189.78px;
+  background-color: white;
+  color: black;
+  position: relative;
+  z-index: 8;
+}
+
+.squad .descuento{
+    width: 449.08px;
+    height: 26px;
+    background-color: #67b500;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 7;
+}
+
+.squad img{
+    position: absolute;
+}
+
+.squad .desc{
+    position: absolute;
+    z-index: 5;
+}
+
+.squad h3{
+    position: absolute;
+    z-index: 4;
+}
+.squad .desde{
+    position: absolute;
+    z-index: 3;
+}
+.squad .precio{
+    position: absolute;
+    z-index: 2;
+}
+.squad .masin{
+    position: absolute;
+    z-index: 1;
+}
