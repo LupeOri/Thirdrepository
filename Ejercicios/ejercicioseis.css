@@ -310,3 +310,7 @@ footer {
 .info .cita {
   color: #67b500;
 }
+
+.info{
+  cursor: pointer;
+}
