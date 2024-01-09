@@ -202,6 +202,10 @@ footer {
   color: #5da132;
   padding-left: 10px;
 }
+
+.squad a{
+  text-decoration: none;
+}
 .squad .masin {
   position: absolute;
   z-index: 1;
@@ -221,6 +225,12 @@ footer {
   margin: 4px;
   cursor: pointer;
 }
+
+.squad .masin:hover {
+  background-color: #67b500;
+  color: white;
+}
+
 
 .pieofertas,
 .pielegales {

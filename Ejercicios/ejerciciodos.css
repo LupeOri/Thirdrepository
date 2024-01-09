@@ -135,3 +135,7 @@ transition: 5s;
   position: relative;
   top: -80px;
 }
+
+.lastone{
+  display: flex;
+}
